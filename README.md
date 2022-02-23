@@ -27,12 +27,7 @@ Use simple libraries and functions to do explorary data analysis.
 * df.groupby(['col1', 'col2']).col3.mean()
 * df['bool column'] = df.col1.str.contains('string', na=False)
 * df.plot() / df.plot(subplots=True) / (kind='bar', stacked= True) / (kind='barh') / (kind='hist', bins=n) / (kind='box')
-** # Add the xlabel, ylabel, and title
-*** plt.xlabel('Hour')
-*** plt.ylabel('Arrest Rate')
-*** plt.title('Arrest Rate by Time of Day')
-** # Display the plot
-*** plt.show()
+* plt.xlabel(' ') / plt.ylabel(' ') / plt.title(' ') / plt.show()
 * df.resample(' ').mean()
 * pd.crosstab(df.col1, df.col2)
 * df.loc['col1': 'col2'])
