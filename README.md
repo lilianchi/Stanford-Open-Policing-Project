@@ -1,11 +1,13 @@
 ### Focus
 Use simple libraries and functions to do explorary data analysis.
 
+### Programming language
+Python
+
 ### Dataset 1: 'ri_police.csv'
 * Traffic stops by police officers
 * Collected data from 31 US states, but only 'Rhode Island' in this case
 * Some of the columns and rows have been removed, full dataset can be downloaded at https://openpolicing.stanford.edu/
-
 
 ### Dataset 2: 'Weather in ri.csv'
 * Exploring the weather dataset
